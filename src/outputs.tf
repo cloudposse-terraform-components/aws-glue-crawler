@@ -1,4 +1,14 @@
-output "mock" {
-  description = "Mock output example for the Cloud Posse Terraform component template"
-  value       = local.enabled ? "hello ${basename(abspath(path.module))}" : ""
+output "crawler_id" {
+  description = "Crawler ID"
+  value       = module.glue_crawler.id
+}
+
+output "crawler_name" {
+  description = "Crawler name"
+  value       = module.glue_crawler.name
+}
+
+output "crawler_arn" {
+  description = "Crawler ARN"
+  value       = module.glue_crawler.arn
 }
