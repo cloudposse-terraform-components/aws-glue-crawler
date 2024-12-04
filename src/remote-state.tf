@@ -1,6 +1,6 @@
 module "glue_iam_role" {
   source  = "cloudposse/stack-config/yaml//modules/remote-state"
-  version = "1.5.0"
+  version = "1.8.0"
 
   component = var.glue_iam_component_name
 
@@ -9,7 +9,7 @@ module "glue_iam_role" {
 
 module "glue_catalog_database" {
   source  = "cloudposse/stack-config/yaml//modules/remote-state"
-  version = "1.5.0"
+  version = "1.8.0"
 
   component = var.glue_catalog_database_component_name
 
@@ -18,7 +18,7 @@ module "glue_catalog_database" {
 
 module "glue_catalog_table" {
   source  = "cloudposse/stack-config/yaml//modules/remote-state"
-  version = "1.5.0"
+  version = "1.8.0"
 
   component = var.glue_catalog_table_component_name
 
