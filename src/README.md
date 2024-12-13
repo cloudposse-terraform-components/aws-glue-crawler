@@ -5,7 +5,7 @@ tags:
   - provider/aws
 ---
 
-# Component: `glue`
+# Component: `glue-crawler`
 
 This component provisions Glue crawlers.
 
