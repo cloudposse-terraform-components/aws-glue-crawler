@@ -5,3 +5,4 @@ repository:
   description: This component provisions Glue crawlers
   homepage: https://cloudposse.com/accelerate
   topics: terraform, terraform-component
+
