@@ -8,7 +8,6 @@ tags:
 # Component: `glue-crawler`
 
 This component provisions Glue crawlers.
-
 ## Usage
 
 **Stack Level**: Regional
@@ -35,8 +34,8 @@ components:
           update_behavior: null
 ```
 
-<!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -114,12 +113,17 @@ No resources.
 | <a name="output_crawler_arn"></a> [crawler\_arn](#output\_crawler\_arn) | Crawler ARN |
 | <a name="output_crawler_id"></a> [crawler\_id](#output\_crawler\_id) | Crawler ID |
 | <a name="output_crawler_name"></a> [crawler\_name](#output\_crawler\_name) | Crawler name |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/main/modules/glue/crawler) -
-  Cloud Posse's upstream component
+
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-glue-crawler&utm_content=)
+
